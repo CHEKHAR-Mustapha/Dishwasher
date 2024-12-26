@@ -35,7 +35,7 @@ public class DishWasherUnit {
     }
 
   
-    public String getCycleName() {
+ /*   public String getCycleName() {
         String name = ""; 
 
         // TODO 1: Add decision statements to get cycle name
@@ -55,10 +55,10 @@ public class DishWasherUnit {
 
         return name;
     }
-  
+  */
     
     
-/*    public String getCycleName() {
+   public String getCycleName() {
         String name="";
 
         switch (this.cycle) {
@@ -83,7 +83,7 @@ public class DishWasherUnit {
 
         return name;
     }
-*/
+
   
     public int getCycleDuration() {
         int cycleTime = 0;
